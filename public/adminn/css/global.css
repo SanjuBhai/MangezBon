@@ -1,0 +1,83 @@
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.fn {
+	float:none !important;
+}
+.bold{
+	font-weight:bold;
+}
+.pointer {
+	cursor:pointer;
+}
+textarea{
+	resize:none;
+}
+label, button, select, input[type='submit'], input[type='button'],input[type='reset'],input[type='radio'],input[type='checkbox'],input[type='file']{
+	cursor:pointer;
+}
+iframe {
+	border:none;
+}
+.text {
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+	line-height: 25px;
+	text-align: justify;
+}
+.hidden {
+	display:none;
+}
+.sm a {
+	color:#3493ff !important;
+	text-decoration:underline !important;
+	font-weight: bold !important;
+	font-size:14px;
+}
+.loading {
+	background-image:url('../images/ajax-loader.gif');
+	background-repeat: no-repeat;
+	background-position: 50%;
+	width: 100%;
+	height: 150px;
+	text-align:center;
+	border:1px solid #ddd;
+}
+/* Font Awesome CSS */
+.isa_info, .isa_success, .isa_warning, .isa_error {
+	margin: 10px 0px;
+	padding:12px;
+	font-size:15px;
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    vertical-align:middle;
+	margin-right:5px;
+}
+.isa_info a, .isa_success a, .isa_warning a, .isa_error a {
+    color: #337ab7;
+}
